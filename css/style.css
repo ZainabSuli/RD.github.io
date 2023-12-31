@@ -29,41 +29,21 @@ p{
   text-align:center;
 }
 
-div img{
-    width:150px;
-    height: 150px;
+@media all and (max-width: 772px) {
+ div img{
+    width:45%;
+    height: 30%;
     display:block;
     margin:auto;
 }
 
+@media all and (max-width: 998px) {
 div{
   display: inline-block;
-  width: 24%;
+  width: 30%;
   margin: 5px;
   padding: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
